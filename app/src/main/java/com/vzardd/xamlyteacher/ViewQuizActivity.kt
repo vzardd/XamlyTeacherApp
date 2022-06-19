@@ -169,7 +169,10 @@ class ViewQuizActivity : ComponentActivity() {
                                 .background(MaterialTheme.colors.primary)
                                 .padding(15.dp)){
                                 Row(modifier = Modifier.fillMaxWidth().padding(horizontal = 25.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
-                                    Icon(painter = painterResource(id = R.drawable.ic_leaderboard), contentDescription = "submissions", tint = Color.White, modifier = Modifier.size(35.dp))
+                                    Icon(painter = painterResource(id = R.drawable.ic_leaderboard), contentDescription = "submissions", tint = Color.White, modifier = Modifier.size(35.dp).clickable {
+                                        val intent = Intent(context, SubmissionActivity::class.java)
+                                        startActivity(intent)
+                                    })
                                     Icon(imageVector = Icons.Default.Edit, contentDescription = "edit", tint = Color.White, modifier = Modifier.size(35.dp).clickable {
                                         val intent = Intent(context, CreateQuizActivity::class.java)
                                         intent.putExtra("quizId",quizId)
