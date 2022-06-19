@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385832675231",
+    "project_id": "xamly-63bad",
+    "storage_bucket": "xamly-63bad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385832675231:android:c4eecf7502c879eab3ffaa",
+        "android_client_info": {
+          "package_name": "com.vzardd.xamlyteacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385832675231-uo09ekaupkd1kfpuk11mdgd2botlbbv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnRt-sJAe7MgeV_H7Eh_74-GBNbvwaxK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385832675231-uo09ekaupkd1kfpuk11mdgd2botlbbv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
